@@ -25,7 +25,8 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "lint": "eslint . --ext js,ts,tsx",
-    "format": "prettier --write **/*.{js,ts,tsx} && eslint . --ext js,ts,tsx --fix"
+    "format": "prettier --write **/*.{js,ts,tsx} && eslint . --ext js,ts,tsx --fix",
+    "release":"sgrid release:vite -s GoTradeWebServer -d dist  -p /"
   },
   "browserslist": {
     "production": [
